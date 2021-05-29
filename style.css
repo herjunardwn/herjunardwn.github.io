@@ -1,0 +1,370 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/pattern.jpg);
+    background-position: -100px 50px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax img {
+    width: 170px;
+    border-radius: 50%;
+    margin-top: 55px;
+    border: 2px solid #fff;
+}
+
+.parallax h1 {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    animation: zoomDanFade 2s;
+}
+
+.bio {
+    color: #fff;
+    font-size: 22px;
+    animation: zoomDanFade 3s;
+}
+
+.social {
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 600px;
+    animation: zoomDanFade 4s;
+}
+
+.social h6 {
+    color:#fff;
+    font-size: 19px;
+}
+
+.social a {
+    color: rgba(190, 233, 34, 0.8);
+    margin-bottom: -15px;
+}
+
+.social a:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+
+.nav {
+    height: 10px;
+    padding: 20px;
+    background-color: #222;
+    position: sticky;
+    top:0;
+    font-size: 22px;
+    letter-spacing: 1.6px;
+    z-index: 9999;
+}
+
+.nav a {
+    padding: 10px;
+}
+
+.nav a:hover {
+    background-color: rgba(139, 139, 139, 0.3);
+
+}
+
+ul .logo {
+    font-weight: bold;
+    color: rgba(190, 233, 34, 0.8);
+    float: left;
+    font-size: 20px;
+}
+
+ul .logo-responsive {
+    display: none;
+}
+
+
+/* ul li img {
+    border-radius: 50%;
+    width: 30px;
+    line-height: 10px;
+    margin-top: -15px;
+} */
+
+ul li {
+    float: right;
+    margin-right: 50px;
+    line-height: 10px;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+}
+
+h2, p {
+    color: #333;
+}
+
+p {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom : 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+ol li {
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(50,50,50,.5);
+    padding: 50px;
+    font-size: 35px;
+}
+
+.prestasi {
+    background-color: rgba(231, 231, 231, 0.5);
+    height: 100vh;
+}
+
+.prestasi h2 {
+    margin-top: 80px;
+    padding-bottom: 200px;
+}
+
+.sertifikat {
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 4px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+
+li img:hover {
+    filter: contrast(50%);
+    transition: .3s;
+}
+
+.card li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 3px solid#666;
+    float: left;
+    margin-right: 20px;
+    margin-left: 48px;
+}
+
+.clear {
+    clear: both;
+}
+
+.kontak-saya {
+    margin-top: -80px;
+    height: 100vh;
+}
+
+
+.kontak-saya h2 {
+    margin-top: 80px;
+    color: #fff;
+}
+
+.tabel {
+    float: left;
+}
+
+form {
+    width: 560px;
+    height: 330px;
+    padding: 15px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    width: 560px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+textarea {
+    width: 560px;
+    border-radius: 10px;
+}
+
+form button {
+    width: 560px;
+    height: 30px;
+    color: #333;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(190, 233, 34, 0.8);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(59, 143, 196)    ;
+    color:#333;
+}
+
+.kontak-saya {
+    background-color: #333;
+    background-attachment: fixed;
+}
+
+.kontak {
+    padding: 24px;
+    width: 400px;
+    width: 400px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 150px;
+    float: left;
+}
+
+.kontak .judul {
+    font-size: 20px;
+    color: rgb(101, 185, 238);
+}
+
+.kontak .nilai {
+    margin-top: -55px;
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    text-align: center;
+    line-height: 70px;
+    display: flex;
+}
+
+.copyright {
+    color: #fff;
+    line-height: 70px;
+    letter-spacing: 0;
+}
+
+/* overlay */
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0,0);
+    z-index: 999999;
+    transition: .8s;
+}
+
+.overlay:target {
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0,.7);
+    width: auto;
+    height: auto;
+}
+
+#over {
+    width: 100vh;
+    height: 80vh;
+    border: none;
+    border-radius: 0;
+    margin: 100px 360px;
+    box-shadow: 2px 2px 7px rgba(0,0,0, .6);
+    filter: none;
+}
+
+.overlay:target img {
+    animation: zoomDanFade .8s;
+}
+
+.overlay .close {
+    position: absolute;
+    top:50px;
+    left: 50%;
+    margin-left: -13px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0,0,0,.3);
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 0;
+}
+
+.close:hover {
+    background-color: rgba(255,255,255,.5);
+}
+
+.overlay:target .close {
+    animation: slideDownFade .5s .7s forwards;
+}
+
+
+/* animasi */
+@keyframes zoomDanFade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDownFade {
+    0% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
