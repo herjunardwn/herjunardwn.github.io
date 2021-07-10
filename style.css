@@ -5,6 +5,10 @@
     background-attachment: fixed;
 }
 
+.navbar {
+    background-color: rgba(30, 30, 30, 0.8);
+}
+
 .navbar-nav {
     font-family: 'Roboto Mono', monospace;
 }
@@ -28,7 +32,8 @@
 
 
 .skill-logo img {
-    margin: 0 20px 0 20px;
+    margin: 0 25px 0 25px;
+    opacity: .8;
 }
 
 section {
