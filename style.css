@@ -1,34 +1,56 @@
 .jumbotron {
     padding-top: 7rem;
     background-image: url(img/pattern.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
+.navbar-nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+}
 
 
 #sertificate {
-    background-color: #e2edff
+    background-color: #e2edff;
+}
+
+#skill {
+    background-color: #333;
+}
+
+#contact {
+    color: #333;
+}
+
+
+.skill-logo img {
+    margin: 0 20px 0 20px;
 }
 
 section {
     padding-top: 5rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
-    width: 16%;
-    margin: auto;
-    padding-bottom: 10px;
+    text-shadow: 0 1px 2px #fff;
+    color: #333;
+}
+
+#about p {
+    color: #333;
 }
 
 p {
-    font-size:  1em;
+    font-size:  1em;    
 }
 
 .bi {
-    font-size: 2em;
+    font-size: 2.3em;
     padding: 4px;
 }
 
@@ -42,6 +64,10 @@ p {
 
 .bi-twitter {
     color:  #00acee;
+}
+
+footer {
+    font-family:'Roboto Mono', monospace;
 }
 
 .bi-suit-heart-fill {
