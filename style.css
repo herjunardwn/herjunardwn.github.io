@@ -1,0 +1,51 @@
+.jumbotron {
+    padding-top: 7rem;
+    background-image: url(img/pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+#sertificate {
+    background-color: #e2edff
+}
+
+section {
+    padding-top: 5rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    width: 16%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size:  1em;
+}
+
+.bi {
+    font-size: 2em;
+    padding: 4px;
+}
+
+.bi-facebook {
+    color:#3b5998;
+}
+
+.bi-instagram {
+    color: rgb(225, 48, 108);
+}
+
+.bi-twitter {
+    color:  #00acee;
+}
+
+.bi-suit-heart-fill {
+    font-size: 1em;
+}
+
+
