@@ -1,11 +1,25 @@
 .jumbotron {
     padding-top: 7rem;
-    background-image: url(img/banner.png);
+    background-image: url(img/geometris.png);
+    background-attachment: fixed;
     background-color: #333;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    position: relative;
+    z-index: 1; 
 
+}
+
+.jumbotron::after {
+    content: ' ';
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0 ,0 ,0, 1), rgba(0, 0, 0, 0));
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .navbar {
@@ -62,7 +76,7 @@ button {
 }
 
 .bi {
-    font-size: 2.3em;
+    font-size: 2.8em;
     padding: 4px;
 }
 
