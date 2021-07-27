@@ -1,8 +1,11 @@
 .jumbotron {
     padding-top: 7rem;
-    background-image: url(img/pattern.jpg);
+    background-image: url(img/banner.png);
+    background-color: #333;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 .navbar {
@@ -54,6 +57,10 @@ p {
     font-size:  1em;    
 }
 
+button {
+    background-color: #4a7d70 !important;
+}
+
 .bi {
     font-size: 2.3em;
     padding: 4px;
@@ -73,6 +80,7 @@ p {
 
 footer {
     font-family:'Roboto Mono', monospace;
+    background-color:  #4a7d70;
 }
 
 .bi-suit-heart-fill {
