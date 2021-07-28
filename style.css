@@ -75,6 +75,10 @@ button {
     background-color: #4a7d70 !important;
 }
 
+.bi-telephone-fill, .bi-envelope-fill, .bi-geo-alt-fill{
+    color: #4a7d70;
+}
+
 .bi {
     font-size: 2.8em;
     padding: 4px;
